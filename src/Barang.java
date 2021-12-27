@@ -29,7 +29,7 @@ public class Barang implements CRUD{
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn  = DriverManager.getConnection(url, user, pass);
-            System.out.println("koneksi berhasil");
+            System.out.print("koneksi berhasil");
         }catch (Exception e){
             System.out.println(e);
         }
