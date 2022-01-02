@@ -1,0 +1,14 @@
+ HashMap<Integer, String> days = new HashMap<Integer,String>();
+        
+       // mengisi nilai ke objek days
+       days.put(1, "Minggu");
+       days.put(2, "Senin");
+       days.put(3, "Selasa");
+       days.put(4, "Rabu");
+       days.put(5, "Kamis");
+       days.put(6, "Jum'at");
+       days.put(7, "Sabtu");  
+        //Traversing list through Iterator  
+        for(Map.Entry m : days.entrySet()){    
+            System.out.println(m.getKey()+" "+m.getValue());    
+           }  
